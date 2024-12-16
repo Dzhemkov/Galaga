@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54bf058-9caf-4efc-9bb0-2099f4494f98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Galaga.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/galaga_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities.py" afterDir="false" />
+    <list default="true" id="c54bf058-9caf-4efc-9bb0-2099f4494f98" name="Changes" comment="The second day of working at Galaga. Player movement is done. Next Should be firing projectiles.">
+      <change afterPath="$PROJECT_DIR$/bolt_player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gun_player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galaga_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/galaga_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,7 @@
   "keyToString": {
     "Python.galaga_main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Dima-PC/Desktop/Python Projects/TileMapTesting",
+    "last_opened_file_path": "C:/Users/Dima-PC/Desktop/Python Projects/FlappyBird",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -64,6 +59,19 @@
       <option name="presentableId" value="Default" />
       <updated>1734126572770</updated>
     </task>
+    <task id="LOCAL-00001" summary="The second day of working at Galaga. Player movement is done. Next Should be firing projectiles.">
+      <option name="closed" value="true" />
+      <created>1734220480656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734220480656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The second day of working at Galaga. Player movement is done. Next Should be firing projectiles." />
+    <option name="LAST_COMMIT_MESSAGE" value="The second day of working at Galaga. Player movement is done. Next Should be firing projectiles." />
   </component>
 </project>

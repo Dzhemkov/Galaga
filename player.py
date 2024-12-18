@@ -2,9 +2,9 @@ from utilities import *
 
 
 class Player:
-    def __init__(self, pos):
+    def __init__(self):
 
-        self.pos = pos
+        self.pos = [rect_x, rect_y]
         #self.rect = self.image.get_frect(topleft=pos)
         self.direction = vector()
         self.speed = 500
@@ -13,7 +13,7 @@ class Player:
 
         self.pos[0] += self.direction.x * self.speed * dt
 
-        pygame.draw.rect(display, (255, 0, 0), (self.pos[0], self.pos[1], 30, 30))
+        pygame.draw.rect(display, (0, 0, 255), (self.pos[0], self.pos[1], rect_size, rect_size))
 
     def input(self):
         keys = pygame.key.get_pressed()

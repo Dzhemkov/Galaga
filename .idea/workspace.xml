@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54bf058-9caf-4efc-9bb0-2099f4494f98" name="Changes" comment="The second day of working at Galaga. Player movement is done. Next Should be firing projectiles.">
-      <change afterPath="$PROJECT_DIR$/bolt_player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gun_player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer.py" afterDir="false" />
+    <list default="true" id="c54bf058-9caf-4efc-9bb0-2099f4494f98" name="Changes" comment="Day 3. Simple player gun made. Should make it more complex with more features. Enemies are next? Not looking forward to it.">
+      <change afterPath="$PROJECT_DIR$/level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolt_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/bolt_player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/galaga_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/galaga_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gun_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/gun_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +41,8 @@
   "keyToString": {
     "Python.galaga_main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Dima-PC/Desktop/Python Projects/FlappyBird",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "C:/Users/Dima-PC/Desktop/Python Projects/Galaga",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -67,11 +69,20 @@
       <option name="project" value="LOCAL" />
       <updated>1734220480656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 3. Simple player gun made. Should make it more complex with more features. Enemies are next? Not looking forward to it.">
+      <option name="closed" value="true" />
+      <created>1734318655366</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734318655366</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The second day of working at Galaga. Player movement is done. Next Should be firing projectiles." />
-    <option name="LAST_COMMIT_MESSAGE" value="The second day of working at Galaga. Player movement is done. Next Should be firing projectiles." />
+    <MESSAGE value="Day 3. Simple player gun made. Should make it more complex with more features. Enemies are next? Not looking forward to it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3. Simple player gun made. Should make it more complex with more features. Enemies are next? Not looking forward to it." />
   </component>
 </project>

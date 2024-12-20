@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54bf058-9caf-4efc-9bb0-2099f4494f98" name="Changes" comment="Day 4-5 or something. I didn't work on enemies, I added diagonal shooting to the player and tried some other stuff.">
-      <change afterPath="$PROJECT_DIR$/bolts_enemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gun_enemy.py" afterDir="false" />
+    <list default="true" id="c54bf058-9caf-4efc-9bb0-2099f4494f98" name="Changes" comment="Day 6. I made an enemy. It shoots and stuff.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolt_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/bolts_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolts_enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/bolts_enemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolts_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/bolts_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/galaga_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/galaga_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gun_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/gun_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     "Python.galaga_main.executor": "Run",
     "Python.gun_player.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Dima-PC/Desktop/Python Projects/Galaga",
+    "last_opened_file_path": "C:/Users/Dima-PC/Desktop/Python Projects/Minesweeper",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
@@ -88,13 +88,22 @@
       <option name="project" value="LOCAL" />
       <updated>1734490780180</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day 6. I made an enemy. It shoots and stuff.">
+      <option name="closed" value="true" />
+      <created>1734562536628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734562536628</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The second day of working at Galaga. Player movement is done. Next Should be firing projectiles." />
     <MESSAGE value="Day 3. Simple player gun made. Should make it more complex with more features. Enemies are next? Not looking forward to it." />
     <MESSAGE value="Day 4-5 or something. I didn't work on enemies, I added diagonal shooting to the player and tried some other stuff." />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 4-5 or something. I didn't work on enemies, I added diagonal shooting to the player and tried some other stuff." />
+    <MESSAGE value="Day 6. I made an enemy. It shoots and stuff." />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6. I made an enemy. It shoots and stuff." />
   </component>
 </project>

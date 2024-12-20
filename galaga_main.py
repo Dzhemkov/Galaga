@@ -15,18 +15,24 @@ class Galaga:
         self.clock = pygame.time.Clock()
 
         current_stage = Level()
+        self.spaceship = pygame.image.load(os.path.join("Sprites", "player.png"))
+        self.enemy1 = pygame.image.load(os.path.join("Sprites", "enemy1.png"))
 
-        self.player = Player()
+        self.player = Player(self.spaceship)
         self.player_gun = Player_Gun()
 
-        self.enemy = Enemy()
+        self.enemy = Enemy(self.enemy1)
         self.enemy_gun = Enemy_Gun()
 
     def run(self):
 
         while True:
             dt = self.clock.tick() / 1000
+
             self.display.fill((0, 0, 0))
+
+            self.enemy.check_collision(self.display, self.player_gun.bolts, self.player_gun.dr_bolts, self.player_gun.dl_bolts)
+            self.player.check_collision(self.display, self.enemy_gun.bolts, self.enemy_gun.dr_bolts, self.enemy_gun.dl_bolts)
 
             self.player.move(self.display, dt)
             self.player.input()
@@ -38,7 +44,6 @@ class Galaga:
             self.enemy.update()
 
             self.enemy_gun.shoot([self.enemy.pos[0] + (rect_size // 2), self.enemy.pos[1]], self.display, dt)
-            #self.enemy_gun.input()
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:

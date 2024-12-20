@@ -12,7 +12,7 @@ class Player_Gun:
         self.level = 2
 
         self.timers = {
-            'reload_timer': Timer(100)
+            'reload_timer': Timer(200)
         }
 
     def shoot(self, pos, display, dt):
